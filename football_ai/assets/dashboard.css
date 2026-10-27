@@ -1,0 +1,50 @@
+:root{--fi-green:#b5f36d;--fi-blue:#73bcff;--fi-muted:#94a3b8;--fi-border:#29333e}
+.stApp{background:#10151b;color:#edf2f8}
+.block-container{max-width:1320px;padding:2rem 2.5rem 4rem}
+[data-testid="stSidebar"]{background:#151c24;border-right:1px solid var(--fi-border)}
+h1,h2,h3{letter-spacing:-.04em} h1{font-size:2.6rem!important;font-weight:750!important}
+[data-testid="stForm"]{background:#171f28;border:1px solid var(--fi-border);border-radius:18px;padding:18px 22px}
+[data-testid="stMetric"]{background:#19212b;border:1px solid var(--fi-border);padding:17px 20px;border-radius:14px}
+[data-testid="stMetricValue"]{font-variant-numeric:tabular-nums;font-size:1.9rem}
+[data-testid="stMetricLabel"]{color:#aebdcb}
+[data-baseweb="tab-list"]{gap:22px;border-bottom:1px solid var(--fi-border);margin:22px 0 16px}
+button[data-baseweb="tab"]{padding:13px 4px;font-size:15px}
+.fi-brand{font-size:12px;font-weight:700;letter-spacing:.15em;display:flex;align-items:center;gap:10px;margin-bottom:25px;color:#b8c4d2}
+.fi-mark{background:var(--fi-green);color:#18230e;border-radius:8px;padding:5px 8px;letter-spacing:-1px;font-size:14px}
+.fi-tag{font-size:10px;letter-spacing:.1em;border:1px solid #415636;color:var(--fi-green);border-radius:20px;padding:4px 9px;margin-left:auto}
+.fi-intro{color:#94a3b8;font-size:16px;margin-top:-13px;margin-bottom:28px}
+.fi-hero{border:1px solid #364936;border-radius:22px;background:radial-gradient(ellipse at 50% 0%,#28382c 0%,#18212a 56%,#151d25 100%);padding:25px 30px;margin-top:20px}
+.fi-eyebrow{color:#b5f36d;font-size:11px;font-weight:650;letter-spacing:.13em;text-transform:uppercase}
+.fi-fixture{display:grid;grid-template-columns:1fr 160px 1fr;align-items:center;gap:15px;padding:28px 0 20px}
+.fi-team{text-align:center}.fi-name{font-size:28px;line-height:1.25;font-weight:750;margin:13px 0 4px;letter-spacing:-.03em}
+.fi-sub{font-size:12px;color:#98a9ba}.fi-team.away .fi-sub{color:#93c8ff}
+.fi-badge{height:68px;width:68px;object-fit:contain;margin:auto;display:block;filter:drop-shadow(0 7px 10px #0004)}
+.fi-monogram{height:64px;width:64px;background:#b5f36d18;border:1px solid #b5f36d55;border-radius:18px;display:grid;place-items:center;margin:auto;font-size:26px;color:#b5f36d;font-weight:750}
+.fi-vs{text-align:center;color:#8495a4;font-size:12px}.fi-time{color:#f4f7fa;font-size:24px;font-weight:700;margin:7px 0}
+.fi-bottom{padding-top:16px;border-top:1px solid #ffffff12;display:flex;justify-content:space-between;gap:15px;font-size:12px;color:#a8b7c6}
+.fi-form{display:inline-flex;gap:4px;vertical-align:middle}.fi-form b{height:23px;width:23px;display:grid;place-items:center;border-radius:5px;font-size:10px}.fi-V{background:#b5f36d;color:#1b2d0e}.fi-E{background:#475363;color:#fff}.fi-D{background:#71404a;color:#ffced3}
+.fi-kpi{background:#19212b;border:1px solid #2b3844;border-radius:14px;padding:20px;min-height:158px}
+.fi-kpi-label{color:#acbac8;font-size:12px}.fi-kpi-value{font-size:36px;font-weight:750;line-height:1.2;margin:9px 0;color:#eef7e8;letter-spacing:-.04em}
+.fi-kpi-note{color:#98a9ba;font-size:11px}.fi-kpi-pair{margin-top:10px;color:#cbd7e4;font-size:12px}
+.fi-result-bar{height:12px;display:flex;border-radius:9px;overflow:hidden;margin:18px 0 14px}.fi-result-bar>div{min-width:0}
+.fi-prob{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:25px}.fi-prob div{padding:15px 18px;border:1px solid #2b3844;border-radius:12px;font-size:12px;color:#a7b6c5}.fi-prob strong{display:block;font-size:27px;font-weight:700;color:#edf6ea;margin-top:5px}
+.fi-score{border:1px solid #34424f;border-radius:12px;text-align:center;background:#18222c;padding:17px 6px}.fi-score strong{font-size:26px}.fi-score small{display:block;color:#b5f36d;font-size:13px;margin-top:6px}
+.fi-section{font-size:19px;font-weight:650;margin:20px 0 15px;letter-spacing:-.025em}
+.fi-welcome{margin-top:28px;border:1px solid #2b3844;border-radius:20px;padding:36px;background:linear-gradient(120deg,#1d2c26,#17212b)}
+.fi-welcome h2{font-size:26px;margin:6px 0 12px}.fi-welcome p{color:#a8b7c6;max-width:660px;margin-bottom:24px}
+.fi-features{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.fi-feature{border-top:1px solid #405246;padding-top:14px;font-size:13px;color:#e4ecf3}.fi-feature small{display:block;color:#93a7b3;line-height:1.6;margin-top:5px}
+.fi-footer{border-top:1px solid #26313b;margin-top:30px;padding-top:18px;color:#788d9f;font-size:11px}
+@media(max-width:700px){.block-container{padding:1.2rem 1rem}.fi-fixture{grid-template-columns:1fr 90px 1fr;gap:5px}.fi-name{font-size:20px}.fi-hero{padding:20px 15px}.fi-time{font-size:20px}.fi-prob div{padding:12px 8px}.fi-prob strong{font-size:22px}.fi-features{grid-template-columns:1fr}.fi-bottom{flex-direction:column}}
+
+[data-testid^="stBaseButton-primary"],[data-testid^="stBaseButton-primary"] *{color:#17230e!important;font-weight:700}
+.fi-team.away .fi-monogram{color:#73bcff;background:#73bcff15;border-color:#73bcff55}
+
+[data-baseweb="tag"],[data-baseweb="tag"] *{color:#17230e!important}
+@media(max-width:700px){.block-container{padding-top:4.5rem}.fi-tag{display:none}.fi-brand{font-size:10px;letter-spacing:.12em}}
+/* v0.5: compact header, clear result hierarchy and player cards. */
+.fi-brand{margin-bottom:8px}.fi-hero{margin-top:8px;padding:19px 26px}.fi-fixture{padding:18px 0 15px}.fi-name{font-size:25px}.fi-monogram{height:54px;width:54px;font-size:23px}
+.fi-prob-main{margin:8px 0 0}.fi-prob-main>div{background:#19232d;padding:20px 24px;border-radius:16px}.fi-prob-main strong{font-size:44px;line-height:1.2;margin:8px 0}.fi-prob-main small{font-size:11px;color:#8fa3b5}.fi-prob-main .home{border-top:3px solid #b5f36d}.fi-prob-main .away{border-top:3px solid #73bcff}.fi-prob-main .draw{border-top:3px solid #7e91a4}.fi-prob-main .home strong{color:#b5f36d}.fi-prob-main .away strong{color:#73bcff}
+.fi-score-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}.fi-score strong{font-size:30px}.fi-score small{font-size:15px}
+.fi-kpi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.fi-kpi{min-height:150px}.fi-kpi-label{font-size:13px}
+.fi-player-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:12px}.fi-player-card{position:relative;background:#19232d;border:1px solid #34434e;border-radius:16px;padding:22px}.fi-player-card h3{font-size:21px;margin:22px 0 3px;max-width:100%;line-height:1.2}.fi-player-card p{font-size:12px;color:#a1b4c5;margin:0 0 15px}.fi-player-card small{font-size:11px;color:#a1b4c5}.fi-player-prob{font-size:35px;font-weight:750;letter-spacing:-.04em;margin-top:15px;color:#b5f36d}.fi-player-card.away .fi-player-prob{color:#73bcff}.fi-player-track{height:5px;border-radius:5px;background:#303e4b;overflow:hidden;margin:12px 0}.fi-player-track span{display:block;height:100%;background:#b5f36d}.fi-player-card.away .fi-player-track span{background:#73bcff}
+@media(max-width:700px){.fi-hero{padding:18px 13px}.fi-name{font-size:19px}.fi-prob-main>div{padding:12px 9px}.fi-prob-main strong{font-size:28px}.fi-prob-main span{font-size:11px}.fi-score-grid{grid-template-columns:repeat(3,1fr);gap:8px}.fi-kpi-grid{grid-template-columns:repeat(2,1fr);gap:10px}.fi-kpi{padding:15px 12px;min-height:153px}.fi-kpi-pair{font-size:10px}.fi-player-grid{grid-template-columns:1fr}.fi-player-card h3{margin-top:8px;max-width:70%}.fi-player-prob{float:right;margin-top:0}.fi-prob-main small{font-size:10px}}
